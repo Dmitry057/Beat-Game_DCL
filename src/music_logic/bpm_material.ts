@@ -1,6 +1,4 @@
-export function BpmMaterial(entity: Entity)
+export function BpmMaterial(entity: Entity,bpm: number)
 {
-    const mat = new Material();
-    mat.albedoColor = Color3.Blue();
-    entity.addComponent(mat);
+   
 }

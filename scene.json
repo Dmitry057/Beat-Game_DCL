@@ -16,6 +16,20 @@
     ],
     "base": "0,0"
   },
+  "source": {
+    "version": 1,
+    "origin": "builder",
+    "projectId": "6a217295-a940-4f98-94bc-e6d33b1428c6",
+    "point": {
+      "x": 0,
+      "y": 0
+    },
+    "rotation": "east",
+    "layout": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
   "requiredPermissions": [],
   "main": "bin/game.js",
   "tags": [],
@@ -24,9 +38,9 @@
       "name": "spawn1",
       "default": true,
       "position": {
-        "x": 0,
+        "x": 8,
         "y": 0,
-        "z": 0
+        "z": 8
       },
       "cameraTarget": {
         "x": 8,
@@ -35,5 +49,12 @@
       }
     }
   ],
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
   "featureToggles": {}
 }
