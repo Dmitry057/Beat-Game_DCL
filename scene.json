@@ -12,9 +12,12 @@
   "owner": "",
   "scene": {
     "parcels": [
-      "0,0"
-    ],
-    "base": "0,0"
+
+      "0,0", "1,0",
+      "0,1", "1,1"
+      
+      ],
+      "base": "0,0"
   },
   "source": {
     "version": 1,
@@ -30,7 +33,9 @@
       "cols": 3
     }
   },
-  "requiredPermissions": [],
+  "requiredPermissions": [
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
   "main": "bin/game.js",
   "tags": [],
   "spawnPoints": [
